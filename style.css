@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    height: 64px;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 64px;
+    width: 64px;
+}
+.logo{
+    background-image: url("Spotify_App_Logo.svg");
+    background-size: cover;
+    height: 64px;
+    width:100%
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.nav-home{
+    height:64px;
+    width: 64px;
+}
+.home{
+    height: 64px;
+    width: 100%;
+    background-image: url("home-button.jpg");
+    background-size: cover;
+}
+.nav-premium{
+    height: 64px;
+    width: 64px;
+}
+.premium{
+    height: 64px;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+.nav-download{
+    height: 64px;
+    width: 64px;
+}
+.download{
+    height: 64px;
+    width: 100%;
+    background-image: url("download-button.png");
+    background-size: cover;
+}
+.nav-support{
+    height: 64px;
+    width: 64px;
+}
+.support{
+    height: 64px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.card-row{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.card{
+    flex:1 1 200px;
+    max-width: 260px;
+    background-color: var(--dark-grey);
+    padding:16px;
+    border-radius:8px;
+}
+.card:hover{
+    background-color: #3a3a3a;
+}
+.card img{
+    width: 100%;
+    border-radius:6px;
+    margin-bottom: 16px;
+}
+.card h3{
+    font-size:18px;
+    color:var(--light-grey)
+}  
+.footer-cols{
+    display:flex;
+    justify-content: space-evenly;
+}
